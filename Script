@@ -58,3 +58,8 @@ FREE -k
 
 -- Acompanhar e monitorar em tempo real arquivo de LOG
 TAIL -F log.txt
+
+--Permissões de Arquivos
+CHMOD (Dono / Grupo / Outros)
+R - Read / W - Writer / X - Execution
+CHMOD root:root nome_pasta -- Altero Usuário Dono da Paasta e Grupo
