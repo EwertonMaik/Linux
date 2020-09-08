@@ -1,1 +1,15 @@
 -- Comandos
+
+--habilitmando SSH Oracle Linux
+/etc/ssh/sshd_config
+Strictmodes = YES
+Pubkey Authentication = YES
+
+/sbin/service sshd status
+/sbin/service sshd start
+
+--Editores que uso
+sudo apt install nono
+yum install nano
+
+nano
