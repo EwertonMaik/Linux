@@ -12,4 +12,43 @@ Pubkey Authentication = YES
 sudo apt install nono
 yum install nano
 
-nano
+nano /pasta/arquivo.txt
+
+VIM
+vim /pasta/arquivo.txt
+I - inserção
+Sair Edição - Esc
+:wq - Sair e Salvar
+:q - Sair
+
+-- Demais comandos
+PWD -- Mostra diretório Atual
+LS -LH -- Lista Diretórios detalhado
+CD / -- Diretórios Raiz
+CD /PASTAS/CAMINHOS -- Acessar Demais Diretórios
+CD.. -- Volta um Nível
+MKDIR nome_pasta -- Criar um pasta
+TOUCH nome_arquivo.txt -- Criar um arquivo
+FIND /HOME 'arquivo.txt' -- Pesquisar Arquivo
+FIND /HOME '*.txt' -- Pesquisar Arquivo pela Extenção
+CAT /HOME arquivo.txt --Exibe informações innternas do arquivo
+HISTORY -- Histório do que foi executado
+CP arquivo.txt /HOME/ORACLE/ -- Copiar arquivo para o diretório informado
+MV arquivo.txt /HOME/ORACLE/ -- Move arquivo para o diretório informado
+RM arquivo.txt -- Excluír arquivo
+RMDIR nome_pasta -- Excluír Pasta
+
+--Gerenciador de Processos
+TOP
+HTOP
+PS
+PS AUX
+
+--Conexões de Rede
+NETSTAT
+
+-- Informações da Memória
+VMSTAT
+FREE -m
+FREE -g
+FREE -k
