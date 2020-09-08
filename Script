@@ -44,11 +44,17 @@ HTOP
 PS
 PS AUX
 
---Conexões de Rede
+--Informações de Rede
 NETSTAT
+sudo apt-get install iptraf
+IPTRAF
 
 -- Informações da Memória
 VMSTAT
 FREE -m
+FREE -m -t
 FREE -g
 FREE -k
+
+-- Acompanhar e monitorar em tempo real arquivo de LOG
+TAIL -F log.txt
